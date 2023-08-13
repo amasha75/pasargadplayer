@@ -5211,13 +5211,13 @@ void 0 === window.tavoos_jwplayer_obj && (window.tavoos_jwplayer_obj = {}),
                     function o(t) {
                         var e = "file:" === window.location.protocol ? "https:" : "",
                             t = {
-                                bidding: "//player.tavoos.net/bidding.js",
-                                jwpsrv: "//player.tavoos.net/jwpsrv.js",
-                                dai: "//player.tavoos.net/dai.js",
-                                vast: "//player.tavoos.net/vast.js",
-                                googima: "//player.tavoos.net/googima.js",
-                                freewheel: "//player.tavoos.net/freewheel.js",
-                                gapro: "//player.tavoos.net/gapro.js",
+                                bidding: "/bidding.js",
+                                jwpsrv: "/jwpsrv.js",
+                                dai: "/dai.js",
+                                vast: "/vast.js",
+                                googima: "/googima.js",
+                                freewheel: "/freewheel.js",
+                                gapro: "/gapro.js",
                             }[t];
                         return t ? e + t : "";
                     }
